@@ -1,23 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
-import Musashi from './Images/Musashi-StarBoy.jpg'
 import Headshot from './Images/ProfessionalHeadshot.jpg'
 import './App.css';
 import {CircleImage} from './Components/CircleImage';
 import Navbar from './Components/Navbar';
-
-//<img src={Musashi} className="App-logo" alt="logo" />
+import PDFViewer from './Components/PDFViewer';
 
 function App() {
   return (
-    <><div className="App">
-        <Navbar />
-        <header className="App-header2" id='Home'>
-          <CircleImage imageUrl={Headshot}/>
-          <h3></h3>
-          <body className="App-body2">Colin Parsons</body>
-        </header>
-    </div><div className="App">
+    <>
+    <div className="App">
+      <Navbar />
+      <header className="App-header2" id='Home'>
+        <CircleImage imageUrl={Headshot}/>
+      <body className="App-body2">Colin Parsons</body>
+      </header>
+    </div>
+    <div className="App-content" id="Resume">
+      <PDFViewer />
+    </div>
+    <div className="App">
         <header className="App-header" id="ReactLogo">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -32,7 +34,8 @@ function App() {
             Learn React
           </a>
         </header>
-      </div></>
+    </div>
+    </>
   );
 }
 
