@@ -1,7 +1,5 @@
 import React from 'react';
-import { ReactDOM } from 'react';
 import { SocialIcon } from 'react-social-icons';
-import logo from './logo.svg';
 import Headshot from './Images/ProfessionalHeadshot.jpg'
 import Musashi from './Images/Musashi-StarBoy.jpg'
 import './App.css';

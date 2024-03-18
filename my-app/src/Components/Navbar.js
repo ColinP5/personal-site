@@ -16,9 +16,9 @@ const Navbar = () => {
         <img src={logo} alt="Logo" height="40px"/>
       </div>
       <ul>
-        <li><a onClick={() => scrollToSection('Home')}>Home</a></li>
-        <li><a onClick={() => scrollToSection('Contact')}>Contact</a></li>
-        <li><a onClick={() => scrollToSection('ReactLogo')}>ReactLogo</a></li>
+        <li><a onClick={() => scrollToSection('Home')} href='home'>Home</a></li>
+        <li><a onClick={() => scrollToSection('Contact')} href='contact'>Contact</a></li>
+        <li><a onClick={() => scrollToSection('ReactLogo')} href='reactlogo'>ReactLogo</a></li>
       </ul>
     </nav>
   );

@@ -1,10 +1,13 @@
 import React from 'react';
-import {Document, Page} from 'react-pdf';
 
-export const PDFViewer = () => {
+const PDFViewer: React.FC = () => {
     return (
         <div>
-            <iframe src='./src/Images/Colin_Parsons_Resume.pdf' width="100%" height="500px"/>
+            <iframe id='Resume'
+            width="100%" 
+            height="500px"
+            src='./src/Images/Colin_Parsons_Resume.pdf' >
+            </iframe>
         </div>
     )
 }
