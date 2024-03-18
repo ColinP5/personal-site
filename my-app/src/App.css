@@ -13,6 +13,13 @@
   }
 }
 
+.App-content {
+  margin-top: 20px; /* Adjust as needed */
+  width: 100%; /* Adjust as needed */
+  height: 600px; /* Adjust as needed */
+  border: 1px solid #ccc; /* Optional: add border for visibility */
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -25,7 +32,77 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: lightblue;
+}
+
+.App-link :visited{
+  color: white;
+}
+
+.App-header2 {
+  background-image: url("Images/mountain-retrowave.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-body2 {
+  font-size: 6vw;
+  font-family: 'Times New Roman', Times, serif;
+  align-items: center;
+}
+
+.App-body3 {
+  font-size: 3vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-items: center;
+}
+
+.App-header3 {
+  background-color: #929aa7ed;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 40vh;
+  align-items: center;
+  margin: 0;
+}
+
+.App-AboutBody {
+  background-color: transparent;
+  font-size: 9px;
+  align-items: start;
+  color: white;
+  text-align: left;
+}
+
+.App-Contact {
+  /*background-image: url("Images/technology-background--digital-hand.jpg");*/
+  background-color: gray;
+  min-height: 10vh;  
+  display: flex;
+  justify-content: space-around; /* Make icons equally spaced */
+  align-items: center;
+}
+
+.App-Icon {
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+}
+
+.App-Email {
+  color: #ccc;
+}
+.a
+
+.App-Footer {
+  align-items: left;
+  font-size: 6vw;
 }
 
 @keyframes App-logo-spin {
